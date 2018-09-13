@@ -13,9 +13,8 @@ end
 
 def index 
   puts input_to_index(gets.strip)
+  puts index = gets.to_i - 1
 end
-
-
 
 def move(board, input_to_index, character="X")
   return input_to_index(user_input)
