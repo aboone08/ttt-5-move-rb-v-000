@@ -11,6 +11,8 @@ def input_to_index(user_input)
   puts "#{user_input}".to_i 
 end 
 
+def index
+
 def move(board, input_to_index, character="X")
   return input_to_index(user_input)
 end 
